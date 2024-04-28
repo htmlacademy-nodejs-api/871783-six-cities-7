@@ -1,7 +1,7 @@
 # Личный проект «Шесть городов»
 
 * Студент: [Мария Власова](https://up.htmlacademy.ru/nodejs-api/7/user/871783).
-* Наставник: `Неизвестно`.
+* Наставник: [Rail Sakhaviev](https://htmlacademy.ru/profile/id1331891).
 
 ---
 
