@@ -1,5 +1,5 @@
-import { User } from "./user.type.js";
-import { City } from "./cities-type.enum.js";
+import { User } from './user.type.js';
+import { City } from './cities-type.enum.js';
 
 export type Location = {
   latitude: number;

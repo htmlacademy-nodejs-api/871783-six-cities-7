@@ -1,8 +1,8 @@
 import { readFileSync } from 'node:fs';
 
 import { FileReader } from './file-reader.interface.js';
-import { User, City, Offer, Good } from "../../types/index.js";
-import { Location } from "../../types/offer.type.js";
+import { User, City, Offer, Good } from '../../types/index.js';
+import { Location } from '../../types/offer.type.js';
 
 export class TSVFileReader implements FileReader {
   private rawData = '';
@@ -13,7 +13,7 @@ export class TSVFileReader implements FileReader {
 
   private validateRawData(): void {
     if (! this.rawData) {
-      throw new Error(`File was not read`);
+      throw new Error('File was not read');
     }
   }
 
